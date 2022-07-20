@@ -1,0 +1,13 @@
+.index {
+    background-color: lightgrey;
+}
+
+.greenarea {
+    color: darkgreen;
+    background-color: lightgreen;
+}
+
+.yellowarea {
+    color: goldenrod;
+    background-color: lightyellow;
+}

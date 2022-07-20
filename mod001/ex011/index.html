@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferente ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 730px)" srcset="images/fotop.png" type="image/png">
+        <source media="(max-width: 1030px)" srcset="images/fotom.png" type="image/png">
+        <img src="images/fotog.png" alt="Imagem flexível">
+    </picture>
+    <h1>Reproduzindo áudio</h1>
+    <p>Áudios em HTML5</p>
+    <audio controls autoplay loop>
+        <source src="media/gypsy-stroll.mp3" type="audio/mpeg">
+        <p>Audio not available for your browser</p>
+        
+    </audio>
+    <p>
+        <a href="media/gypsy-stroll.mp3" download="gypsy-stroll.mp3" type="audio/mpeg">Click here to download the audio</a>
+    </p>
+</body>
+</html>

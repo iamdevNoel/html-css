@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras Formatações</title>
+</head>
+<body>
+    <h1>Outras Formatações</h1>
+    <p>Use "Inspecionar Elemento" para ver como as tags trabalham</p>
+    <h2>Código Fonte / Pré-formatação</h2>
+    <p>O comando document.getElementById('teste') é escrito em linguagem JavaScript. (sem tag)<br /> 
+    O comando <mark><code>document.getElementById('teste')</code></mark> é escrito em linguagem JavaScript. (com tag, letras monoespaçadas)</p>
+    <p>Código somente com a tag code:
+        <code>
+        for i in lista:
+            if i % 2 == 0:
+                print("Par")
+            else:
+                print("Ímpar")
+    </code><br />
+    Código com tag code dentro da tag pre:
+    <pre>
+    <code>for i in lista:
+        if i % 2 == 0:
+            print("Par")
+        else:
+            print("Ímpar")
+        </code>
+    </pre>
+    <!--A tag pre pega o conteúdo literalmente na formatação em que está. Note que precisei recuar o código para o nível da tag pre, mesmo que esteja dentro da tag code. Se não tivesse feito isso, o código apareceria com três níveis de tabulação.--></p>
+    <h2>Citação Simples / Completa</h2>
+    <p>Como diria Mamonas Assassinas: <q>Money que é good nós num have</q>. (diferente de " ")</p>
+    <p>Certa vez, um Fulano disse:</p>
+    <blockquote cite="Fulano">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, vel quis reprehenderit pariatur enim hic dolorum nesciunt autem ratione ducimus quia porro ipsum maxime eaque consectetur commodi voluptatibus impedit delectus.
+    </blockquote>
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheet">CSS</abbr>, e estou adorando.</p>
+</body>
+</html>

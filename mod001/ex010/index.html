@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com links</title>
+</head>
+<body>
+    <h1>Usando links externos</h1>
+    <!--a = âncora; 
+    href = hyperlink de referência; 
+    target:
+        "_blank" = para abrir link em nova aba;
+        "_self" (default) = para abrir link na mesma aba.
+    rel, explica aos SEOs qual a relação daquele link com o site atual:
+        "external" = página externa à atual
+        "prev" = página anterior à atual
+        "next" = página posterior à atual
+        "nofollow" = página a qual não se sabe a procedência, não se deseja estar relacionado
+        "dofollow" = página a qual se deseja estar relacionada (muito usada em patrocínios)-->
+    <p>Experimente acessar <a href="https://www.github.com/iamdevnoel" target="_blank" rel="external">meu repositório público no GitHub</a>.</p>
+    <p>Você também pode visitar <a href="https://www.linkedin.com/in/gabrielnoberto" target="_blank" rel="external">meu perfil no LinkedIn</a>.</p>
+
+    <h1>Usando links internos</h1>
+    <p>Esta é a primeira página do site. Se você quiser, pode acessar a <a href="pag002.html" target="_self" rel="next">segunda página</a>.</p>
+    <p>Você também pode visitar nossa <a href="noticias/pag003.html" target="_self" rel="next">página de notícias</a>.</p>
+
+    <h1>Links para download</h1>
+    <ul>
+        <li><a href="livro/meulivro.pdf" download>Baixar exemplo de e-book em .pdf</a></li>
+        <li><a href="livro/meulivro.zip" target="_blank" download="meulivro.zip">Baixar exemplo de e-book em .zip</a></li>
+    </ul>
+</body>
+</html>
