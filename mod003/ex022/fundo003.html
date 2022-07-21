@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posição dos fundos</title>
+    <style>
+        .container {
+            min-width: 305px;
+            max-width: 1220px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .block {
+            background-image: url('imagens/wallpaper003.jpg');
+            height: 200px;
+            width: 400px;
+            border: 1px solid black;
+            border-radius: 20px;
+            margin: 10px 2px;
+        }
+
+        #sq1 {
+            background-position: left top;
+        }
+
+        #sq2 {
+            background-position: top;
+        }
+
+        #sq3 {
+            background-position: top right;
+        }
+
+        #sq4 {
+            background-position: left;
+        }
+
+        #sq5 {
+            background-position: center;
+        }
+
+        #sq6 {
+            background-position: right;
+        }
+
+        #sq7 {
+            background-position: bottom left;
+        }
+
+        #sq8 {
+            background-position: bottom;
+        }
+
+        #sq9 {
+            background-position: bottom right;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="block" id="sq1"></div>
+        <div class="block" id="sq2"></div>
+        <div class="block" id="sq3"></div>
+        <div class="block" id="sq4"></div>
+        <div class="block" id="sq5"></div>
+        <div class="block" id="sq6"></div>
+        <div class="block" id="sq7"></div>
+        <div class="block" id="sq8"></div>
+        <div class="block" id="sq8"></div>
+    </div>
+</body>
+</html>
