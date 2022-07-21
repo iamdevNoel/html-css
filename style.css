@@ -6,11 +6,11 @@
 }
 
 body {
-    background-color: gray;
+    background-color: #b7df62;
 }
 
 main {
-    min-width: 350px;
+    min-width: 300px;
     max-width: 600px;
     padding: 20px;
     margin: 30px auto;
@@ -20,18 +20,19 @@ main {
 }
 
 h1 {
-    color: green;
+    color: #318C07;
+    text-align: center;
     text-shadow: 0px 0px 1px #0005;
 }
 
 h2 {
-    color: rgb(255, 145, 0);
+    color: #C0D904;
     text-shadow: 0 0 2px #0004;
-    margin: 20px 0;
+    margin: 20px 0 15px;
 }
 
 main li {
-    margin: 0 -20px;
+    margin: 0 -40px;
     list-style: none;
 }
 
@@ -41,12 +42,12 @@ main li::before {
 
 main a {
     font-weight: bold;
-    color: darkolivegreen;
+    color: #72A603;
     text-decoration: none;
 }
 
 main a:hover {
-    color: rgb(255, 145, 0);
+    color: #c0d904;
     text-decoration: underline 2px;
     transition: 0.2s;
 }
