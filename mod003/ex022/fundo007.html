@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento Vertical</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        #container {
+            width: 100vw;
+            height: 100vh;
+            background: purple url('imagens/target001.png');
+            background-size: 100% 100%;
+
+            position: relative; /*Posição relativa do elemento-pai*/
+        }
+
+        #content {
+            background: yellow url('imagens/target001.png');
+            background-size: 100% 100%;
+            width: 400px;
+            height: 300px;
+
+            position: absolute; /*Posição absoluta em relação ao pai*/
+            top: 50%; /*Metade da tela vertical*/
+            left: 50%; /*Metade da tela horizontal*/
+
+            /*O problema é que a ancoragem se baseia na ponta superior esquerda do elemento, e não no seu centro. Só com isso, o elemento ainda não fica centralizado.*/
+
+            transform: translate(-50%, -50%); /*"traduzindo" o topo para mais 50% ao topo, e a esquerda para mais 50% à esquerda*/
+
+            /*Com as modificações do translate, agora a ancoragem está sendo feita pelo centro do elemento, e fica perfeitamente centralizado graças ao position*/
+
+            /*Na verdade, tudo isso poderia ser muito bem resolvido com display:flex; justify-content:center; e align-items:center; no elemento-pai, mas o professor ensinou utilizando position...*/
+        }
+    </style>
+</head>
+<body>
+    <section id="container">
+        <article id="content">
+
+        </article>
+    </section>
+</body>
+</html>
