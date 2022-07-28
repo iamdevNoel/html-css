@@ -8,22 +8,19 @@
     <style>
         table {
             min-width: 400px;
+            min-height: 300px;
             border-collapse: collapse;
         }
 
         td {
             border: 1px solid black;
             padding: 8px;
+            text-align: center;
         }
 
-        .differentrow {
-            background-color: lightgray;
+        .number {
+            text-align: right;
         }
-
-        .highlight {
-            background-color: yellow;
-        }
-
     </style>
 </head>
 <body>
@@ -34,27 +31,20 @@
             <td>B1</td>
             <td>C1</td>
         </tr>
-        <tr class="differentrow">
+        <tr>
             <td>A2</td>
             <td>B2</td>
-            <td>C2</td>
+            <td class="number">C2</td>
         </tr>
         <tr>
             <td>A3</td>
             <td>B3</td>
-            <td>C3</td>
+            <td class="number">C3</td>
         </tr>
         <tr>
             <td>A4</td>
-            <td class="highlight">B4</td>
+            <td>B4</td>
             <td>C4</td>
-        </tr>
-        <tr>
-            <td>A5</td>
-            <td>B5</td>
-        </tr>
-        <tr>
-            <td>A6</td>
         </tr>
     </table>
 </body>
