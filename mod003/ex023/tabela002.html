@@ -15,6 +15,13 @@
             width: 500px;
         }
 
+        caption {
+            font: bold 1.5em sans-serif;
+            background-color: lightgray;
+            border-radius: 10px 10px 0 0;
+            padding: 5px;
+        }
+
         td, th {
             border: 1px solid black;
             padding: 5px;
@@ -34,10 +41,11 @@
 <body>
     <h1>Tabelas grandes, com tags semânticas</h1>
     <table>
+        <caption>Top 5 População das UF</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
             </tr>
         </thead>
         <tbody>
@@ -64,7 +72,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
+                <th scope="row">Total de Habitantes</th>
                 <td class="number"><strong>101.310.890</strong></td>
             </tr>
         </tfoot>
