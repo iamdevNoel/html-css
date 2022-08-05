@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Responsivas</title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+
+        .container {
+            overflow-x: scroll;
+        }
+
+        caption {
+            font: bold 1.3em sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 5px 10px;
+        }
+
+        table tr:nth-child(even) {
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabelas em telas pequenas</h1>
+    <p>Redimensione o tamanho do seu navegador, se estiver pelo computador, ou experimente virar a tela do seu celular para ver como a tabela se adaptará.</p>
+    
+    <div class="container">
+        <table>
+            <caption>Tabela Responsivas</caption>
+            <thead>
+                <th scope="col">Produto</th>
+                <th scope="col">Janeiro</th>
+                <th scope="col">Fevereiro</th>
+                <th scope="col">Março</th>
+                <th scope="col">Abril</th>
+                <th scope="col">Maio</th>
+                <th scope="col">Junho</th>
+                <th scope="col">Julho</th>
+                <th scope="col">Agosto</th>
+                <th scope="col">Setembro</th>
+                <th scope="col">Outubro</th>
+                <th scope="col">Novembro</th>
+                <th scope="col">Dezembro</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">TV 43 pol</td>
+                    <td>01</td>
+                    <td>04</td>
+                    <td>05</td>
+                    <td>02</td>
+                    <td>03</td>
+                    <td>03</td>
+                    <td>05</td>
+                    <td>10</td>
+                    <td>07</td>
+                    <td>08</td>
+                    <td>04</td>
+                    <td>05</td>
+                </tr>
+                <tr>
+                    <th scope="row">Celular</th>
+                    <td>04</td>
+                    <td>05</td>
+                    <td>08</td>
+                    <td>03</td>
+                    <td>02</td>
+                    <td>01</td>
+                    <td>10</td>
+                    <td>03</td>
+                    <td>05</td>
+                    <td>07</td>
+                    <td>04</td>
+                    <td>05</td>
+                </tr>
+                <tr>
+                    <th scope="row">Notebook</th>
+                    <td>01</td>
+                    <td>05</td>
+                    <td>02</td>
+                    <td>05</td>
+                    <td>03</td>
+                    <td>04</td>
+                    <td>05</td>
+                    <td>10</td>
+                    <td>07</td>
+                    <td>03</td>
+                    <td>04</td>
+                    <td>08</td>
+                </tr>
+                <tr>
+                    <th scope="row">Geladeira</th>
+                    <td>04</td>
+                    <td>03</td>
+                    <td>05</td>
+                    <td>01</td>
+                    <td>03</td>
+                    <td>02</td>
+                    <td>05</td>
+                    <td>07</td>
+                    <td>05</td>
+                    <td>04</td>
+                    <td>10</td>
+                    <td>08</td>
+                </tr>
+                <tr>
+                    <th scope="row">Vídeo Game</th>
+                    <td>01</td>
+                    <td>04</td>
+                    <td>05</td>
+                    <td>02</td>
+                    <td>03</td>
+                    <td>03</td>
+                    <td>05</td>
+                    <td>10</td>
+                    <td>07</td>
+                    <td>08</td>
+                    <td>04</td>
+                    <td>05</td>
+                </tr>
+                <tr>
+                    <th scope="row">Smartwatch</th>
+                    <td>02</td>
+                    <td>04</td>
+                    <td>05</td>
+                    <td>05</td>
+                    <td>03</td>
+                    <td>03</td>
+                    <td>07</td>
+                    <td>08</td>
+                    <td>05</td>
+                    <td>01</td>
+                    <td>10</td>
+                    <td>04</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <p>Perceba que em telas pequenas a tabela gera uma rolagem lateral, mas os outros elementos do sites se mantém </p>
+</body>
+</html>
