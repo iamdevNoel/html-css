@@ -28,7 +28,6 @@ body {
 }
 
 header {
-    width: 100vw;
     min-height: 150px;
     background: linear-gradient(var(--green4), var(--green6));
     color: white;
@@ -157,13 +156,12 @@ aside h3 {
 }
 
 aside ul {
-    height: 150px;
-    margin: 0 0 0 -27px;
+    height: 140px;
+    margin: 0 0 0 -20px;
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    flex-flow: column wrap;
     list-style-type: none;
-}
+}   
 
 aside li::before {
     content: "\2714\0020";
