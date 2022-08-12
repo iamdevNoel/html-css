@@ -156,7 +156,7 @@ aside h3 {
 }
 
 aside ul {
-    height: 140px;
+    height: 150px;
     margin: 0 0 0 -20px;
     display: flex;
     flex-flow: column wrap;
