@@ -156,7 +156,7 @@ aside h3 {
 }
 
 .versionslist {
-    width: 65vw;
+    width: 70vw;
     display: flex;
     flex-flow: row wrap;
     gap: 25%;
