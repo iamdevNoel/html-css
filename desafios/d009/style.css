@@ -10,15 +10,11 @@ h1, p {
 }
 
 .container {
-    display: flex;
-    justify-content: center;
-}
-
-.container-grid {
-    width: 405px;
-    height: 230px;
+    max-width: 410px;
+    margin: auto;
     border: 3px solid green;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 5px;
 }
