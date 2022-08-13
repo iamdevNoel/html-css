@@ -121,7 +121,7 @@ main img {
 }
 
 #uniqueimg {
-    max-width: 300px;
+    max-width: 350px;
     margin: auto;
 }
 
@@ -155,16 +155,20 @@ aside h3 {
     color: white;
 }
 
-aside ul {
-    height: 160px;
-    margin: 0 0 0 -20px;
+.versionslist {
+    width: 70vw;
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: row wrap;
+    gap: 25%;
+}
+
+aside ul {
+    margin: 0 0 0 -10px;
     list-style-type: none;
-}   
+}
 
 aside li::before {
-    content: "\2714\0020";
+    content: "\2714\00A0";
 }
 
 footer {
