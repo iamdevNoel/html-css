@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iFrames</title>
+</head>
+<body>
+    <h1>Testando segurança de iframes</h1>
+
+    <p>No iframe abaixo, temos um site que possui um script que cria novos parágrafos a cada clique. Em relação a segurança, é perigoso permitir que outros sites possam executar scripts dentro do seu site.</p>
+    
+    <iframe src="pag002.html">
+        Seu navegador é incompatível com iframes.
+    </iframe>
+
+    <p>Já no iframe abaixo, foi inserido atributos que limitam as possibilidades do iframe e aumentam a segurança, impedindo certos comportamentos e solicitações via scripts. Ao clicar em "Clique em mim", nada acontece.</p>
+
+    <iframe src="pag002.html" sandbox="sandbox" referrerpolicy="no-referrer">
+        Seu navegador é incompatível com iframes.
+    </iframe>
+</body>
+</html>
